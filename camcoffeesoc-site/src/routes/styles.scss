@@ -1,0 +1,36 @@
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials-bar {
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.generic-container {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+
+    .page-footer {
+        text-align: center;
+    }
+}
+
+.sponsor-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+body {
+    width: 99%;
+}
