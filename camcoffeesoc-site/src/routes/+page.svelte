@@ -45,11 +45,11 @@
         src={banner.src} 
         alt={banner.alt} 
         size = 'max-w-xs'
-        class="rounded-lg m-3"
+        class="rounded-lg m-5"
         />
     <Heading 
         customSize="text-3xl font-extrabold  md:text-5xl lg:text-5xl"
-        class = 'm-2'
+        class = 'm-5'
         tag = 'h1'
         align = 'center'>
         Cambridge University <Span gradient>Coffee and Tea Society</Span>
@@ -57,8 +57,8 @@
 </div>
 
 <!-- Main Body-->
-<Heading tag="h2" customSize="text-4xl font-extrabold " id = 'about' class = "m-3">About us</Heading>
-<List tag="ul" class="space-y-1 m-3 text-xl">
+<Heading tag="h2" customSize="text-4xl font-extrabold " id = 'about' class = "m-5">About us</Heading>
+<List tag="ul" class="space-y-1 m-5 text-xl">
     <Li>We are a Society within the University of Cambridge hoping to unite students through love of teas and coffees.</Li>
     <Li>Our society gives members a chance to try new varieties and brew methods, as well as a chance to promote improving mental health and wellbeing.</Li>
     <Li>A great way to escape from studies, to take an hour off to speak with friends and make new ones! We are really excited to expand this community with your help.</Li>
@@ -66,22 +66,21 @@
     <Li>Education surrounding ethical and sustainable production of coffee and tea is also massively important and is applicable to many other products too.</Li>
     <Li>One of our values surrounds choosing to spend the little extra to ensure an improved quality of life for the farmers and workers within the supply chain.</Li>
 </List>
-<Heading tag="h2" customSize="text-4xl font-extrabold " id = 'about' class = "m-3">Our industry sponsors:</Heading>
-<div class = 'sponsor-container'> 
-    <List tag = 'ul' class = 'space-y-1 m-3 font-extrabold text-3xl'>
-        <Li><A href="https://www.nichecoffee.co.uk/" color = 'black'>Niche Coffee</A></Li>
-        <Li><A href="https://www.aeropress.co.uk/" color = 'black'>AeroPress</A></Li>
-        <Li><A href="https://www.uniterra-nomad.com/" color = 'black'>UniTerra</A></Li>
-        <Li><A href="https://acaia.co/" color = 'black'>Acaia</A></Li>
-        <Li><A href="https://1zpresso.coffee/" color = 'black'>1Zpresso</A></Li>
-    </List>
+<Heading tag="h2" customSize="text-4xl font-extrabold " id = 'about' class = "m-5">Our industry sponsors:</Heading>
+<List tag = 'ul' class = 'space-y-1 m-5 font-extrabold text-3xl'>
+    <Li><A href="https://www.nichecoffee.co.uk/" color = 'black'>Niche Coffee</A></Li>
+    <Li><A href="https://www.aeropress.co.uk/" color = 'black'>AeroPress</A></Li>
+    <Li><A href="https://www.uniterra-nomad.com/" color = 'black'>UniTerra</A></Li>
+    <Li><A href="https://acaia.co/" color = 'black'>Acaia</A></Li>
+    <Li><A href="https://1zpresso.coffee/" color = 'black'>1Zpresso</A></Li>
+</List>
     <Img 
         src = {sponsors.src}
         alt = {sponsors.alt} 
         size = 'max-w-xl'
-        class="rounded-lg m-3"/>
-</div>
-<P class = 'm-3 text-xl'>
+        class="m-5"
+        />
+<P class = 'm-5 text-xl'>
     We have hopes to work with more companies within industry in the future! 
     We host interesting and unique events such as AeroPress championships, frequent socials, social swaps, cupping events and coffee tournaments.
 </P>
