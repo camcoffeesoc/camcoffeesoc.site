@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { GradientButton, Img, NavBrand, NavHamburger, NavLi, NavUl, Navbar, P} from "flowbite-svelte";
+	import { Button, GradientButton, Img, NavBrand, NavHamburger, NavLi, NavUl, Navbar, P} from "flowbite-svelte";
     import logo from '$lib/assets/logo.jpeg';
     const cat_latte = {
         alt: 'cat latte art',
@@ -28,31 +28,9 @@
 
     <div class = 'centered-container ml-20 mr-20 mt-3'>
         <P class = 'm-2 font-bold text-xl'>
-            Hey! We are constantly planning new events and evolving the Society to better itself. Please use the google form below to get in touch.
-            Alternatively, feel free to use any of our social channels to give feedback.
-            We are always looking to gather feedback on what you think we did well, or what you think we should improve on in the future. 
-            This can be in relation to anything, from events to social media posts. Please don't hesitate to get in contact if you have any queries. 
-            We will do our best to get back to you as soon as possible, but if we don't manage to catch you on one place please give us a prompt on another outlet.
+            We use the student run computing facility to manage our mailing list - please use the link <GradientButton color="purpleToBlue" href="https://lists.srcf.net/mailman/listinfo/camcoffee-news">here</GradientButton> to sign up to our mailing list. <br/>
+            If you have any issues with signing up, please get in contact with us at <a href='mailto:camcoffeesoc@gmail.com'>camcoffeesoc@gmail.com</a>, or through any of our socials.
         </P>
-    </div>
-
-    <div class = 'form-container'>
-        <iframe 
-            src="https://docs.google.com/forms/d/e/1FAIpQLSdLRC-wly-aMvCwlW_MMeR7MqWT-YRkXuT3wYNwPQcFltB7ow/viewform?embedded=true" 
-            style="
-            min-width: 100%;
-            height: 60vh;
-            border: none;" 
-            title = 'contact-us-form'>
-            Loading…</iframe>
-    </div>
-    <div class = 'centered-container'>
-            <Img 
-            src={cat_latte.src} 
-            alt={cat_latte.alt} 
-            size = 'max-w-xl'
-            class="rounded-lg m-5"
-            />
     </div>
     <div class="socials-bar m-2" id = "connect">
         <GradientButton 
@@ -108,9 +86,4 @@
 </body>
 <style lang="scss">
     @import '../styles.scss';
-
-    .form-container {
-        display: flex;
-        justify-content: center;
-    }
 </style>

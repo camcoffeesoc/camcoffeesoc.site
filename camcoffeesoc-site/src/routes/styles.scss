@@ -1,4 +1,4 @@
-.header-container {
+.centered-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,11 +11,10 @@
     justify-content: center;
 }
 
-.generic-container {
+.horizontally-centered-container {
     display: flex;
     justify-content: center;
 }
-
 .footer-container {
     display: flex;
     justify-content: center;
@@ -26,6 +25,13 @@
     }
 }
 
-body {
-    width: 99%;
+.text, .list {
+    padding: 2em;
+}
+
+body, html {
+    width: 99vw;
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
