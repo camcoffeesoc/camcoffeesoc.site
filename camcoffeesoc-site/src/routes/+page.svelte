@@ -29,7 +29,7 @@
         <Navbar let:hidden let:toggle rounded>
             <NavBrand href="/">
             <img src={logo} class="mr-3 h-6 sm:h-12" alt="CATS Logo" />
-            <span class="self-center whitespace-nowrap text-2xl font-extrabold dark:text-white">Cambridge University Coffee and Tea Society</span>
+            <span class="self-center whitespace-normal text-2xl font-extrabold dark:text-white">Cambridge University Coffee and Tea Society</span>
             </NavBrand>
             <NavHamburger on:click={toggle} />
             <NavUl {hidden}>
