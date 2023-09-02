@@ -33,13 +33,12 @@
     white-space: normal;
 }
 
-.body-image { 
-    width: calc(100% - 2.5rem)
+img {
+  height: auto;
+  max-width: 10%;
 }
 
 body, html {
-    width: 99vw;
-    margin: 0;
-    padding: 0;
-    border: 0;
+    width: 99%;
+    background-size: cover;
 }

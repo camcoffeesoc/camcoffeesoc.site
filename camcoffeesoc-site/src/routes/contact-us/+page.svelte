@@ -49,9 +49,8 @@
     <div class = 'centered-container'>
             <Img 
             src={cat_latte.src} 
-            alt={cat_latte.alt} 
-            size = 'max-w-xl'
-            class="body-image rounded-lg m-5"
+            alt={cat_latte.alt}
+            class="rounded-lg m-5"
             />
     </div>
     <div class="socials-bar m-2" id = "connect">

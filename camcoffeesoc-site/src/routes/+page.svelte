@@ -26,7 +26,7 @@
 <body>
 <!--Nav Bar -->
     <div class = "nav-bar">
-        <Navbar let:hidden let:toggle rounded>
+        <Navbar let:hidden let:toggle navDivClass = 'mx-auto flex justify-between items-center' rounded>
             <NavBrand href="/">
             <img src={logo} class="mr-3 h-6 sm:h-12" alt="CATS Logo" />
             <span class="self-center whitespace-normal text-2xl font-extrabold dark:text-white">Cambridge University Coffee and Tea Society</span>
@@ -46,9 +46,8 @@
     <div class="centered-container">
         <Img 
         src={banner.src} 
-        alt={banner.alt} 
-        size = 'max-w-2xl'
-        class="body-image rounded-lg m-5"
+        alt={banner.alt}
+        class="rounded-lg m-5"
         />
     </div>
     <div class = 'centered-container'>
@@ -88,9 +87,8 @@
         </div>
         <div class = 'image'><Img 
         src = {sponsors.src}
-        alt = {sponsors.alt} 
-        size = 'max-w-xl'
-        class="body-image m-5"
+        alt = {sponsors.alt}
+        class="m-5"
         />
         </div>
     </div>
@@ -165,9 +163,8 @@
     <div class = 'centered-container'>
         <Img 
         src={college.src} 
-        alt={college.alt} 
-        size = 'max-w-xl'
-        class="body-image rounded-lg m-5"
+        alt={college.alt}
+        class="rounded-lg m-5"
         />
     </div>
 
@@ -219,7 +216,7 @@
     <div class="horizontally-centered-container m-2">
         <GradientButton 
             color="purpleToBlue"
-            class = 'text-4xl'
+            class = 'text-fit'
             on:click={() => contactUsHandler()}
             >
             Contact Us
