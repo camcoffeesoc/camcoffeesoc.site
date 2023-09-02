@@ -1,5 +1,4 @@
 .centered-container {
-    flex-wrap: wrap;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,12 +29,12 @@
     padding: 2em;
 }
 
-.big-image {
-    width: 99vw;
-}
-
 .nav-bar {
     white-space: normal;
+}
+
+.body-image { 
+    width: calc(100% - 2.5rem)
 }
 
 body, html {

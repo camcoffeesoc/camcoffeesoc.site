@@ -44,17 +44,17 @@
     </div>
     <!-- Header with image -->
     <div class="centered-container">
-        <div class = 'big-image'>
-            <Img 
-            src={banner.src} 
-            alt={banner.alt} 
-            size = 'max-w-xl'
-            class="rounded-lg m-5"
-            />
-        </div>
+        <Img 
+        src={banner.src} 
+        alt={banner.alt} 
+        size = 'max-w-2xl'
+        class="body-image rounded-lg m-5"
+        />
+    </div>
+    <div class = 'centered-container'>
         <div class = 'text'>
             <Heading 
-                customSize="text-3xl font-extrabold  md:text-6xl lg:text-6xl"
+                customSize="text-6xl font-extrabold"
                 class = 'm-5'
                 tag = 'h1'
                 align = 'center'>
@@ -90,7 +90,7 @@
         src = {sponsors.src}
         alt = {sponsors.alt} 
         size = 'max-w-xl'
-        class="m-5"
+        class="body-image m-5"
         />
         </div>
     </div>
@@ -167,7 +167,7 @@
         src={college.src} 
         alt={college.alt} 
         size = 'max-w-xl'
-        class="rounded-lg m-5"
+        class="body-image rounded-lg m-5"
         />
     </div>
 
