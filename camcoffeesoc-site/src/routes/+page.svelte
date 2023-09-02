@@ -100,7 +100,7 @@
             We host interesting and unique events such as AeroPress championships, frequent socials, social swaps, cupping events and coffee tournaments.
         </P>
     </div>
-    <div class = 'role-box m-10'>
+    <div class = 'role-box m-10' id = 'committee'>
         <P class = 'mb-5 text-4xl font-extrabold underline'>
             Our committee & role descriptions:
         </P>
