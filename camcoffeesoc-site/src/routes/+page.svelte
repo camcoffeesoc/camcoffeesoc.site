@@ -44,7 +44,7 @@
     </div>
     <!-- Header with image -->
     <div class="centered-container">
-        <div class = 'image'>
+        <div class = 'big-image'>
             <Img 
             src={banner.src} 
             alt={banner.alt} 
