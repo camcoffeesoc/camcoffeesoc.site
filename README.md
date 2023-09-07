@@ -1,2 +1,46 @@
 # camcoffeesoc.github.io
-camcoffeesoc official website
+This is the repository for the Cambridge University Coffee and Tea Society's website. This app is a static SPA (no backend), build with Svelte and deployed with Netlify. The owner of this site is contactable at [camcoffeesoc@gmail.com](mailto:camcoffeesoc@gmail.com).
+
+## Authors
+
+- [@callumstephenson](https://github.com/callumstephenson)
+
+## Tech Stack
+
+**Client:** SvelteKit, Svelte-FlowBite, TailwindCSS
+
+**Deployment:** Netlify CI
+
+
+## Run Locally
+
+**Dependencies:** Node.js
+
+Clone the project
+
+```bash
+  git clone https://github.com/camcoffeesoc/camcoffeesoc.site
+```
+
+Go to the project directory
+
+```bash
+  cd camcoffeesoc.site
+  cd site
+```
+
+Install dependencies
+
+```bash
+  npm install (try with --legacy-peer-deps if not working)
+```
+
+Start the local server
+
+```bash
+  npm run dev -- --open
+```
+
+See svelte_readme in /site for more information on running locally.
+
+![Logo](https://imgur.com/4jmJbgR)

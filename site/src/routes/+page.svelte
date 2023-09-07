@@ -157,6 +157,10 @@
                     They also allow us to have a bank account and often helps host the AGM.
                 </p>
                 <p class="text-sm text-gray-500 dark:text-gray-400 m-2">
+                    <b>Junior Treasurer:</b> <br/>    
+                    The Junior Treasurer's role is to keep books in order, manage the petty cash system, ensure we have enough money for events to be sustainable for us and advise what is possible given the current financial state of the Society.
+                  </p>
+                <p class="text-sm text-gray-500 dark:text-gray-400 m-2">
                     <b>Events Officer:</b> <br/>    
                     The Events officer helps plan and run events to ensure that everyone can enjoy themselves and feel included and welcomed!
                 </p>
