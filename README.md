@@ -45,4 +45,4 @@ Start the local server
 
 See svelte_readme in /site for more information on running locally.
 
-![Logo](https://imgur.com/4jmJbgR)
+![Logo](https://i.imgur.com/4jmJbgR.jpeg)
