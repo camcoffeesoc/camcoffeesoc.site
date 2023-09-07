@@ -110,12 +110,12 @@
               <p class="text-sm text-gray-500 dark:text-gray-400 m-2">
                 <b>President:</b> <br/>    
                 Callum Stephenson - css47 <br/>
-                Third year Chemical Engineering student at Trinity
+                Third year Chemical Engineering student at Trinity college
               </p>
               <p class="text-sm text-gray-500 dark:text-gray-400 m-2">
                 <b>Vice President:</b> <br/>    
                 Imane Jaaouine - ij273 <br/>
-                Third year Chemical Engineering student at Lucy Cavendish
+                Third year Chemical Engineering student at Lucy Cavendish college
               </p>
               <p class="text-sm text-gray-500 dark:text-gray-400 m-2">
                 <b>Senior Treasurer:</b> <br/>    
@@ -123,12 +123,14 @@
                 Chemical Engineering Professor working at Gonville & Caius interested in the applications of TeraHertz
               </p>
               <p class="text-sm text-gray-500 dark:text-gray-400 m-2">
-                <b>Events Officer:</b> <br/>    
-                Role Empty <br/>
+                <b>Events Officer:</b> <br/>
+                Elise Wilkinson - ew629 <br/>
+                Biological Natural Scientist studying at Fitzwilliam college
               </p>
               <p class="text-sm text-gray-500 dark:text-gray-400 m-2">
                 <b>Secretary:</b> <br/>    
-                Role Empty <br/>
+                Jessi Rogers -  jar203<br/>
+                PhD researcher in Education at Wolfson college
               </p>
             </TabItem>
             <TabItem open>
