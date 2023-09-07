@@ -123,6 +123,11 @@
                 Chemical Engineering Professor working at Gonville & Caius interested in the applications of TeraHertz
               </p>
               <p class="text-sm text-gray-500 dark:text-gray-400 m-2">
+                <b>Junior Treasurer:</b> <br/>    
+                Lucy Ansell - lka28 <br/>
+                Third year English student at Trinity college
+              </p>
+              <p class="text-sm text-gray-500 dark:text-gray-400 m-2">
                 <b>Events Officer:</b> <br/>
                 Elise Wilkinson - ew629 <br/>
                 Biological Natural Scientist studying at Fitzwilliam college
